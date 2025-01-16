@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-beacon",
+  "version": "1.0.0",
+  "description": "Cordova Plugin for Beacon Detection",
+  "cordova": {
+    "id": "com.example.beacon",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "cordova",
+    "beacon",
+    "altbeacon"
+  ],
+  "engines": {
+    "cordovaDependencies": "cordova-android@>=9.0.0"
+  },
+  "author": "Your Name",
+  "license": "Apache-2.0"
+}

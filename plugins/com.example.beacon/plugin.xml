@@ -1,0 +1,17 @@
+<plugin id="com.example.beacon" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>BeaconPlugin</name>
+    <description>Cordova Plugin for Beacon Detection</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova, beacon, altbeacon</keywords>
+    <engines>
+        <engine name="cordova" version=">=9.0.0" />
+    </engines>
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.BLUETOOTH" />
+            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+        </config-file>
+        <source-file src="src/android/BeaconPlugin.java" target-dir="src/com/example/beacon" />
+    </platform>
+</plugin>
