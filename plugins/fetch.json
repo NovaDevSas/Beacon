@@ -2,7 +2,7 @@
   "com.example.beacon": {
     "source": {
       "type": "local",
-      "path": "C:\\Users\\USUARIO\\Desktop\\Ente\\EntelPOCBeacon2\\EntelPOCBeacon2\\testProject\\node_modules\\cordova-plugin-beacon"
+      "path": "https://github.com/NovaDevSas/Beacon"
     },
     "is_top_level": true,
     "variables": {}
