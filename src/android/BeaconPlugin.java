@@ -1,6 +1,4 @@
-Beacon2/EntelPOCBeacon2/cordova-plugin-beacon/src/android/BeaconPlugin.java
 package com.example.beacon;
-
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
 import org.json.JSONArray;
